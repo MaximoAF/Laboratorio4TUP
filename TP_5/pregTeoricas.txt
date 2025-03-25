@@ -1,0 +1,75 @@
+1. ¿Qué es GitHub?
+   GitHub es una plataforma de desarrollo colaborativo basada en la web que permite a los desarrolladores almacenar y compartir código, además de gestionar proyectos mediante control de versiones usando Git.
+
+2. ¿Cómo crear un repositorio en GitHub?
+   Inicia sesión en GitHub, ve a tu página de inicio y haz clic en "New Repository". Luego, configura el nombre del repositorio y sus parámetros (público o privado) y haz clic en "Create repository".
+
+3. ¿Cómo crear una rama en Git?
+   Ejecuta el siguiente comando en la terminal:
+   git branch <nombre-de-la-rama>
+
+4. ¿Cómo cambiar a una rama en Git?
+   Para cambiar de rama, usa el siguiente comando:
+   git checkout <nombre-de-la-rama>
+
+5. ¿Cómo fusionar ramas en Git?
+   Para fusionar una rama a la rama actual, usa:
+   git merge <nombre-de-la-rama>
+
+6. ¿Cómo crear un commit en Git?
+   Primero agrega los cambios:
+   git add .
+   Luego, haz el commit con:
+   git commit -m "Mensaje del commit"
+
+7. ¿Cómo enviar un commit a GitHub?
+   Después de hacer un commit localmente, empuja los cambios a GitHub con:
+   git push origin <nombre-de-la-rama>
+
+8. ¿Qué es un repositorio remoto?
+   Un repositorio remoto es una versión de tu repositorio que está alojada en un servidor, como GitHub, y permite colaborar con otros desarrolladores.
+
+9. ¿Cómo agregar un repositorio remoto a Git?
+   Para agregar un repositorio remoto, usa el siguiente comando:
+   git remote add origin <url-del-repositorio>
+
+10. ¿Cómo empujar cambios a un repositorio remoto?
+    Empuja los cambios a tu repositorio remoto con:
+    git push origin <nombre-de-la-rama>
+
+11. ¿Cómo tirar de cambios de un repositorio remoto?
+    Para obtener los cambios más recientes del repositorio remoto, usa:
+    git pull origin <nombre-de-la-rama>
+
+12. ¿Qué es un historial de Git?
+    El historial de Git es una lista de todos los commits realizados en el repositorio, mostrando el progreso y los cambios a lo largo del tiempo.
+
+13. ¿Cómo ver el historial de Git?
+    Usa el siguiente comando para ver el historial de commits:
+    git log
+
+14. ¿Cómo buscar en el historial de Git?
+    Puedes buscar un commit en el historial utilizando:
+    git log --grep="<texto-a-buscar>"
+
+15. ¿Cómo borrar el historial de Git?
+    Para eliminar el historial de commits, puedes hacer un rebase o reset, pero ten cuidado, ya que eliminarás cambios importantes. Un ejemplo es:
+    git reset --hard <commit-id>
+
+16. ¿Qué es un repositorio privado en GitHub?
+    Un repositorio privado es un repositorio en GitHub que solo es accesible para las personas a las que se les ha concedido acceso.
+
+17. ¿Cómo crear un repositorio privado en GitHub?
+    Al crear un repositorio en GitHub, puedes seleccionar la opción "Private" para hacerlo privado.
+
+18. ¿Cómo invitar a alguien a un repositorio privado en GitHub?
+    Ve a la configuración del repositorio, selecciona "Manage access" y luego invita a colaboradores proporcionando su nombre de usuario o correo electrónico.
+
+19. ¿Qué es un repositorio público en GitHub?
+    Un repositorio público es un repositorio accesible para cualquier persona en la web, lo que permite que cualquier persona lo vea y lo clone.
+
+20. ¿Cómo crear un repositorio público en GitHub?
+    Al crear un repositorio en GitHub, selecciona la opción "Public" para hacerlo público.
+
+21. ¿Cómo compartir un repositorio público en GitHub?
+    Simplemente comparte la URL del repositorio desde la barra de direcciones del navegador o desde la página del repositorio en GitHub.
