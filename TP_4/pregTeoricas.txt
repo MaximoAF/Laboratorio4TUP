@@ -1,0 +1,18 @@
+1.  ¿Qué ventajas tiene usar dotenv para manejar configuraciones sensibles en vez de tenerlas directamente en el código?
+2.  ¿Por qué es importante utilizar Nodemon durante el desarrollo en proyectos de Node.js?
+3.  ¿Qué diferencias encuentras entre el uso de require y import/export? ¿Por qué es preferible utilizar la sintaxis ES6 en proyectos modernos?
+
+Respuestas
+1.  Ventajas de usar dotenv:
+  -   Seguridad: Protege configuraciones sensibles (como contraseñas y claves) evitando que se expongan en el código fuente.
+  -   Flexibilidad: Permite cambiar configuraciones sin modificar el código, solo editando el archivo .env.
+  -   Portabilidad: Facilita el despliegue en diferentes entornos (producción, desarrollo) sin necesidad de cambiar el código.
+
+2.  Importancia de Nodemon:
+  -   Reinicio automático: Reinicia el servidor cuando se detectan cambios en los archivos, lo que mejora la productividad.
+  -   Desarrollo eficiente: Evita la necesidad de detener y volver a iniciar manualmente el servidor en cada cambio.
+
+3.  Diferencias entre require y import/export:
+  -   require: Sintaxis común en Node.js tradicional, basada en CommonJS. Se usa para cargar módulos de forma síncrona.
+  -   import/export: Sintaxis de ES6, más moderna y estándar en JavaScript. Soporta importación y exportación de módulos de manera más flexible y asincrónica.
+  -   Preferencia por ES6: Es más compatible con herramientas modernas, soporta módulos estáticos y es el estándar futuro para JavaScript.
