@@ -1,0 +1,13 @@
+{
+  "name": "tp_2",
+  "version": "1.0.0",
+  "main": "ejercicio_1.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ejercicio_1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
