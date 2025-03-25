@@ -1,0 +1,7 @@
+{
+  "nombre": "Juan",
+  "edad": 30,
+  "ocupacion": "Desarrollador",
+  "habilidades": ["JavaScript", "Node.js", "React"],
+  "activo": true
+}
